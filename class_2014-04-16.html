@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="Aaron Bieber <qbit@deftly.net>">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CoBUG Class Information</title>
+
+	<style>
+		tbody tr:nth-child(even) {
+			background-color: #f1f1f1;
+		}
+		body {
+			padding: 30px;
+		}
+
+		table {
+			border-collapse: collapse;
+		}
+
+		table tr td {
+			padding: 5px;
+		}
+	</style>
+
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<h1>Host Info for <a href="http://slides.cobug.org/view/OpenBSD%20From%20Source#/">OpenBSD From Source</a></h1>
+<p><i>2014-04-16</i></p>
+<table>
+<thead>
+<tr>
+<th>Host Name</th>
+<th align="right">Port</th>
+<th>ECDSA Finger Print</th>
+<th>RSA Finger Print</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cobug_ofs1</td>
+<td align="right">2117</td>
+<td>ba:c6:7e:d0:91:5e:50:b4:36:b1:7f:f0:db:0f:c0:97</td>
+<td>9c:72:50:b3:fd:6b:7d:d9:13:bd:cd:6a:93:f3:70:c3</td>
+</tr>
+<tr>
+<td>cobug_ofs2</td>
+<td align="right">2118</td>
+<td>57:9a:c6:e1:91:9f:5f:4b:be:0c:03:e0:21:ff:e9:e4</td>
+<td>6a:da:73:8c:41:f0:a1:78:b8:35:ec:bd:d6:d1:58:c8</td>
+</tr>
+<tr>
+<td>cobug_ofs3</td>
+<td align="right">2119</td>
+<td>bc:40:3e:49:09:96:f7:e3:e4:9c:51:8a:b8:a4:35:81</td>
+<td>c5:8a:c6:bc:ce:e4:3a:56:33:76:a4:67:3c:ef:e5:a9</td>
+</tr>
+<tr>
+<td>cobug_ofs4</td>
+<td align="right">2120</td>
+<td>3e:04:fe:5b:82:d2:82:5e:b8:b7:31:9f:39:58:3a:27</td>
+<td>3e:29:ae:b8:91:d6:f7:52:10:43:51:6b:33:37:32:1f</td>
+</tr>
+<tr>
+<td>cobug_ofs5</td>
+<td align="right">2121</td>
+<td>11:fb:3c:79:1a:42:78:e2:7a:54:d1:e0:fc:03:4b:5a</td>
+<td>cc:07:20:ee:6a:df:74:82:cf:44:79:c6:33:8f:2b:c4</td>
+</tr>
+<tr>
+<td>cobug_ofs6</td>
+<td align="right">2122</td>
+<td>18:59:51:46:78:5a:c3:18:62:3d:6d:96:4d:52:58:26</td>
+<td>15:8a:d8:93:27:e5:ff:a5:cb:44:6d:cd:a7:d5:fc:4f</td>
+</tr>
+<tr>
+<td>cobug_ofs7</td>
+<td align="right">2123</td>
+<td>32:10:ab:7d:1e:e3:b2:42:f7:f6:01:fd:54:ef:ca:a0</td>
+<td>e9:45:16:16:e0:d7:60:2b:f8:31:b7:a1:f3:57:3b:7d</td>
+</tr>
+<tr>
+<td>cobug_ofs8</td>
+<td align="right">2124</td>
+<td>1d:93:96:f5:d1:d5:a2:ae:b0:33:b7:57:e1:75:a4:17</td>
+<td>7a:4d:4e:f6:90:1c:58:ff:5c:6e:ec:b5:6a:79:47:d7</td>
+</tr>
+</tbody>
+</table>
+
+
+<hr />
+
+<h1>Command to connect to hosts:</h1>
+
+<p><code>
+ssh -p PORT class.cobug.org
+</code></p>
+
+<p>Username: <code>root</code></p>
+
+<p>Password: <strong><em>given during class</em></strong></p>
+
+<hr />
+
+<h1>If you want to add your fav packages:</h1>
+
+<p><code>
+pkg_add &lt;pkg&gt;
+</code></p>
+
+<p>Example:</p>
+
+<p><code>
+pkg_add vim
+</code></p>
+
+<hr />
